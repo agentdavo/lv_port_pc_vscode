@@ -214,7 +214,7 @@
 #define LV_USE_SNAPSHOT 0
 
 /** Backend that gives the SW renderer vector graphics support. */
-#define LV_USE_THORVG 0
+#define LV_USE_THORVG 1
 
 #if LV_USE_THORVG
 /** Build the ThorVG copy shipped with LVGL instead of linking an external one. */
@@ -1826,7 +1826,7 @@
 #define LV_SDL_RENDER_MODE LV_DISPLAY_RENDER_MODE_DIRECT
 
 /** Number of screen-sized buffers */
-#define LV_SDL_BUF_COUNT 1
+#define LV_SDL_BUF_COUNT 2
 
 /** Ask SDL for a GPU-backed renderer instead of a software one. */
 #define LV_SDL_ACCELERATED 1
